@@ -1,0 +1,19 @@
+node_modules
+coverage
+dist
+.opt-in
+.opt-out
+*.log
+parceldemo
+.netlify
+.DS_Store
+.eslintcache
+
+.npmrc
+## blanking it out for now
+vscode-extension
+
+# these cause more harm than good
+# when working with contributors
+package-lock.json
+yarn.lock
