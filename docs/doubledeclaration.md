@@ -18,6 +18,12 @@ When you don't do it just right:
 - Ommissions are confusing to debug and
 - overfetching due to stale queries is also a problem.
 
+> 2022 Edit:
+>
+> See other commentary on Double declaration:
+> - https://xuorig.medium.com/gqless-or-gqlful-ec36fe588a4b
+> - https://wundergraph.com/blog/solving_the_double_quintuple_declaration_problem_in_graphql_applications_how_to_not_repeat_yourself
+
 ## Problem Statement
 
 Here is a typical graphql query using [urql](https://codesandbox.io/s/p5n69p23x0) (taken [straight from urql's docs](https://github.com/FormidableLabs/urql#getting-started)):
